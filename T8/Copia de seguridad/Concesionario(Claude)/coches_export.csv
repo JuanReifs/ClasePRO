@@ -1,0 +1,10 @@
+matricula,marca,modelo,color,combustible,anio,kilometros,precio,vendido
+3456JKL,BMW,Serie 3,Negro,GASOLINA,2021,30000,35000.0,false
+9012GHI,Ford,Focus,Azul,DIESEL,2019,72000,11300.0,true
+1357VWX,Hyundai,Tucson,Plata,HIBRIDO,2022,15000,27500.0,false
+6789STU,Renault,Clio,Rojo,GASOLINA,2021,22000,13500.0,true
+1234ABC,Seat,Ibiza,Rojo,GASOLINA,2020,45000,12500.0,false
+7890MNO,Tesla,Model 3,Blanco,ELECTRICO,2023,5000,42000.0,false
+5678DEF,Toyota,Corolla,Blanco,HIBRIDO,2022,18000,19800.0,false
+1234,Toyota,corolla,azul,DIESEL,2020,12000,40000.0,false
+2345PQR,Volkswagen,Golf,Gris,DIESEL,2018,95000,9800.0,false

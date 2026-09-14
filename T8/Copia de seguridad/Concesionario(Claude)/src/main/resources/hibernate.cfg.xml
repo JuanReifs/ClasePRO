@@ -6,25 +6,23 @@
     <session-factory>
         <!-- Configuración de la base de datos -->
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/tienda_ces</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/concesionario</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">Aramusha{[(65)]}</property>
 
         <!-- Dialecto de la base de datos -->
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
 
         <!-- Mostrar SQL en consola -->
-        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.show_sql">false</property>
         <property name="hibernate.format_sql">true</property>
 
         <!-- Estrategia de actualización del esquema -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
         <!-- Mapeo de clases -->
-        <mapping class="model.User"/>
-        <mapping class="model.Product"/>
-        <mapping class="model.Profile"/>
-
+        <mapping class="model.Coche"/>
+        <mapping class="model.Marca"/>
 
     </session-factory>
 </hibernate-configuration>
