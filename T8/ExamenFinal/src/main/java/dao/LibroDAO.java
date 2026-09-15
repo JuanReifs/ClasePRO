@@ -154,5 +154,7 @@ public class LibroDAO {
         } finally {
             session.close();
         }
+
+
     }
 }
